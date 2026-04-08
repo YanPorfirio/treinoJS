@@ -26,7 +26,7 @@ Este projeto é um verificador de horas que exibe a hora atual do sistema e uma 
 ou
 
 1. Vá até o repositório no Github
-2. Clique no link:
+2. Clique em "View Live" no canto superior direito
 
 ### Imagens
 
