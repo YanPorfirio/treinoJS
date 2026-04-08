@@ -16,4 +16,10 @@ div {
 
 input {
     font-size: 2rem;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.btn {
+    margin-left: 1rem;
 }
