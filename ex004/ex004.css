@@ -6,6 +6,7 @@ html {
 
 body {
     background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
 }
 
 div {
@@ -14,12 +15,33 @@ div {
     font-size: 2.5rem;
 }
 
+div h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
 input {
     font-size: 2rem;
-    border-radius: 30px;
+    border-radius: 50px;
     padding: 1rem;
 }
 
 .btn {
     margin-left: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.9);
+    background-color: gray;
+    color: white;
+    border-radius: 50px ;
 }
