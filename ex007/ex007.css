@@ -86,7 +86,7 @@ input[type="radio"]:hover {
     transform: scale(1.1);
 }
 
-.btn {
+input[type="button"] {
     width: 100%;
     font-size: 1.1rem;
     font-weight: 600;
