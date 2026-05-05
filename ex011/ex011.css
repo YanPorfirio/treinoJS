@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+    height: 100dvh;
+    width: 100dvw;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+
+:root {
+    --bg-color: #000754;
+    --bg-color-2: ;
+    --cor1: #ffffff;
+    --cor2: #151515;
+    --cor3: #000000;
+    --cor4: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    color: var(--cor1);
+    padding: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header h1 {
+    font-weight: 500;
+}
+
+section {
+    background: rgba(21, 21, 21, 0.8);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+    max-width: 600px;
+    min-height: 450px;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.content {
+    margin: 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: left;
+    gap: 25px;
+    border-radius: 20px;
+    color: var(--cor1);
+}
+
+input[type="number"] {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    font-size: 1.7rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: var(--cor1);
+    color: var(--cor2);
+}   
+
+.content-btn {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    width: 50%;
+    padding: 8px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: var(--cor1);
+    color: var(--cor2);
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+    background: var(--bg-color);
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
+}
+
+.btn:active {
+    transform: translateY(2px);
+    background: var(--cor1);
+    color: var(--bg-color);
+}
+
+.tab {
+    margin: 0 auto;
+    background: var(--cor1);
+    margin-top: 2rem;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 100%;
+    border-radius: 20px;
+    color: var(--cor2);
+    border: none;
+    outline: none;
+    height: auto;
+    min-height: 300px;
+}
+
+.tab option {
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.tab option:hover {
+    background-color: var(--bg-color);
+    color: var(--cor1);
+}
+
+option:checked {
+    background-color: var(--bg-color);
+    color: var(--cor1);
+}
+
+option {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: none;
+    border-top: 1px solid var(--cor1);
+}
+
+footer {
+    color: var(--cor1);
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}

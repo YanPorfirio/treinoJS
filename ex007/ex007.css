@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #1e1e3f 0%, #29294f 100%);
+    background-color: #29294f;
     overflow-x: hidden;
     min-height: 100vh;
     color: white;

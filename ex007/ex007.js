@@ -6,7 +6,7 @@ let res = document.getElementById('res')
 let btn = document.querySelector('input.btn')
 btn.addEventListener('click', verificar)    
 
-function verificar () {
+let verificar = () => {
     
     if (fano.value.length == 0 || Number(fano.value) > ano) {
         window.alert('Erro: Preencha os dados corretamente!')
